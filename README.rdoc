@@ -1,16 +1,19 @@
 = glew
 
-A Ruby SWIG binding for GLEW (supporting GLEW 1.5.3 at present)
+A Ruby SWIG binding for GLEW (supporting GLEW 1.5.1 at present)
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+The latest version of GLEW is 1.5.3, but there's only 1.5.1 in Ubuntu repos, that's why this uses 1.5.1 too.
+
+= Installation
+
+  sudo apt-get install libglew1.5
+  sudo gem install glew
+
+= Usage
+
+  require 'opengl'
+  require 'glew'
+  Glew.methods # a long list here
 
 == Copyright
 

@@ -11,6 +11,7 @@ begin
     gem.homepage = "http://github.com/leonid-shevtsov/glew"
     gem.authors = ["Leonid Shevtsov"]
     gem.add_dependency "ruby-opengl"
+    gem.extensions = ["ext/extconf.rb"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
