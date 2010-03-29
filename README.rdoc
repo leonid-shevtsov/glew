@@ -1,6 +1,6 @@
 = glew
 
-Description goes here.
+A Ruby SWIG binding for GLEW (supporting GLEW 1.5.3 at present)
 
 == Note on Patches/Pull Requests
  
